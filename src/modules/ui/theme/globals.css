@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+button {
+  background-color: #0e7afe;
+  padding: 12px 24px;
+  margin-top: 24px;
+}
+
+legend,
+p,
+label,
+form * {
+  margin-bottom: 12px;
+}

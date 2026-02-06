@@ -1,5 +1,11 @@
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+
 const HomePage = () => {
-  return <div>HomePage</div>
+  const router = useRouter()
+  useEffect(() => {
+    router.push('/booking/reservation')
+  }, [])
 }
 
 export { HomePage }
